@@ -2000,3 +2000,98 @@ INFO  2019-06-07 10:09:59,604 [12   ] ore.Mvc.Internal.ControllerActionInvoker -
 INFO  2019-06-07 10:09:59,615 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2462.29ms 200 application/json; charset=utf-8
 DEBUG 2019-06-07 10:46:08,524 [70   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: oJLEob1tsGjbbhtp8LpJiA
 INFO  2019-06-07 10:46:08,551 [70   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2421863.8026ms 101 
+DEBUG 2019-06-07 12:59:40,300 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-06-07 12:59:40,595 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-06-07 12:59:40,613 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: angularAbp.Web.Host.Startup.angularAbpWebHostModule, angularAbp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-07 12:59:40,616 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: angularAbp.angularAbpWebCoreModule, angularAbp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-07 12:59:40,617 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: angularAbp.angularAbpApplicationModule, angularAbp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-07 12:59:40,617 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: angularAbp.angularAbpCoreModule, angularAbp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-07 12:59:40,617 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-07 12:59:40,618 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-07 12:59:40,618 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-07 12:59:40,619 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-07 12:59:40,620 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: angularAbp.EntityFrameworkCore.angularAbpEntityFrameworkModule, angularAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-07 12:59:40,620 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-07 12:59:40,620 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-07 12:59:40,620 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-07 12:59:40,620 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-07 12:59:40,621 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-07 12:59:40,621 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-07 12:59:40,627 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-06-07 12:59:40,748 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-07 12:59:40,748 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-07 12:59:40,748 [1    ] o.Configuration.LanguageManagementConfig - Converted angularAbp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-07 12:59:40,748 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-07 12:59:41,191 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: angularAbp.EntityFrameworkCore.angularAbpDbContext, angularAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-07 12:59:42,600 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-06-07 12:59:42,644 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-06-07 12:59:42,654 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-06-07 12:59:42,661 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: angularAbp
+DEBUG 2019-06-07 12:59:42,666 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-06-07 12:59:42,882 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-06-07 12:59:42,931 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2019-06-07 12:59:42,931 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - angularAbp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-06-07 12:59:42,941 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - angularAbp.Users.Dto.CreateUserDto
+DEBUG 2019-06-07 12:59:42,941 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - angularAbp.Users.Dto.UserDto
+DEBUG 2019-06-07 12:59:42,942 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - angularAbp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-06-07 12:59:42,942 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - angularAbp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-06-07 12:59:42,942 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - angularAbp.Roles.Dto.CreateRoleDto
+DEBUG 2019-06-07 12:59:42,943 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - angularAbp.Roles.Dto.PermissionDto
+DEBUG 2019-06-07 12:59:42,943 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - angularAbp.Roles.Dto.RoleDto
+DEBUG 2019-06-07 12:59:42,944 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - angularAbp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-06-07 12:59:42,944 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - angularAbp.MultiTenancy.Dto.TenantDto
+DEBUG 2019-06-07 12:59:42,944 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - angularAbp.Employee.Dto.CreateEmployeeDto
+DEBUG 2019-06-07 12:59:42,944 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - angularAbp.Employee.Dto.EmployeeDto
+INFO  2019-06-07 12:59:49,160 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2019-06-07 12:59:49,160 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-06-07 12:59:49,258 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 108.5477ms 200 
+WARN  2019-06-07 12:59:49,379 [9    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'vi-VN'.
+WARN  2019-06-07 12:59:49,381 [9    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'vi-VN'.
+INFO  2019-06-07 12:59:53,724 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action angularAbp.Web.Host.Controllers.HomeController.Index (angularAbp.Web.Host)
+INFO  2019-06-07 12:59:54,931 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method angularAbp.Web.Host.Controllers.HomeController.Index (angularAbp.Web.Host) - Validation state: Valid
+INFO  2019-06-07 12:59:54,940 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method angularAbp.Web.Host.Controllers.HomeController.Index (angularAbp.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.364ms.
+INFO  2019-06-07 12:59:55,280 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-06-07 12:59:55,305 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action angularAbp.Web.Host.Controllers.HomeController.Index (angularAbp.Web.Host) in 1575.2859ms
+INFO  2019-06-07 12:59:55,334 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-06-07 12:59:55,337 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6189.062ms 302 
+WARN  2019-06-07 12:59:55,340 [7    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'vi-VN'.
+WARN  2019-06-07 12:59:55,342 [7    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'vi-VN'.
+INFO  2019-06-07 12:59:55,388 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 61.1541ms 200 text/html
+INFO  2019-06-07 12:59:55,427 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-06-07 12:59:55,431 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-06-07 12:59:55,434 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+WARN  2019-06-07 12:59:55,435 [7    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'vi-VN'.
+WARN  2019-06-07 12:59:55,437 [6    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'vi-VN'.
+WARN  2019-06-07 12:59:55,440 [9    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'vi-VN'.
+WARN  2019-06-07 12:59:55,441 [6    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'vi-VN'.
+WARN  2019-06-07 12:59:55,443 [7    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'vi-VN'.
+WARN  2019-06-07 12:59:55,445 [9    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'vi-VN'.
+INFO  2019-06-07 12:59:55,476 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-06-07 12:59:55,479 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-06-07 12:59:55,479 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-06-07 12:59:55,506 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 57.0107ms 304 text/css
+INFO  2019-06-07 12:59:55,547 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 57.0151ms 304 application/javascript
+INFO  2019-06-07 12:59:55,547 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 55.0492ms 304 application/javascript
+INFO  2019-06-07 12:59:56,057 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-06-07 12:59:56,158 [7    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-06-07 12:59:56,237 [6    ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'vi-VN'.
+WARN  2019-06-07 12:59:56,239 [6    ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'vi-VN'.
+WARN  2019-06-07 12:59:56,241 [6    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'vi-VN'.
+WARN  2019-06-07 12:59:56,242 [6    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'vi-VN'.
+WARN  2019-06-07 12:59:56,244 [6    ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'vi-VN'.
+WARN  2019-06-07 12:59:56,246 [6    ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'vi-VN'.
+INFO  2019-06-07 12:59:56,502 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 444.3365ms 200 application/json;charset=utf-8
+INFO  2019-06-07 13:00:24,144 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Employee/GetAll  
+INFO  2019-06-07 13:00:24,148 [9    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2019-06-07 13:00:24,151 [9    ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'vi-VN'.
+WARN  2019-06-07 13:00:24,156 [9    ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'vi-VN'.
+WARN  2019-06-07 13:00:24,160 [9    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported cultures 'vi-VN'.
+WARN  2019-06-07 13:00:24,163 [9    ] calization.RequestLocalizationMiddleware - CookieRequestCultureProvider returned the following unsupported UI Cultures 'vi-VN'.
+WARN  2019-06-07 13:00:24,168 [9    ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'vi-VN'.
+WARN  2019-06-07 13:00:24,171 [9    ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'vi-VN'.
+INFO  2019-06-07 13:00:24,237 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Employee"}. Executing action angularAbp.Employee.EmployeeAppService.GetAll (angularAbp.Application)
+INFO  2019-06-07 13:00:24,774 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method angularAbp.Employee.EmployeeAppService.GetAll (angularAbp.Application) with arguments (angularAbp.Employee.Dto.PagedEmployeeResultRequestDto) - Validation state: Valid
+INFO  2019-06-07 13:00:25,014 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method angularAbp.Employee.EmployeeAppService.GetAll (angularAbp.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 237.8034ms.
+INFO  2019-06-07 13:00:25,156 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-07 13:00:25,187 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action angularAbp.Employee.EmployeeAppService.GetAll (angularAbp.Application) in 946.4469ms
+INFO  2019-06-07 13:00:25,196 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1046.3561ms 200 application/json; charset=utf-8
