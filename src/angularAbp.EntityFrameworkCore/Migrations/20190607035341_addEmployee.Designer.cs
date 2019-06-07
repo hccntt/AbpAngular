@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using angularAbp.EntityFrameworkCore;
 
 namespace angularAbp.Migrations
 {
     [DbContext(typeof(angularAbpDbContext))]
-    partial class angularAbpDbContextModelSnapshot : ModelSnapshot
+    [Migration("20190607035341_addEmployee")]
+    partial class addEmployee
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -1047,7 +1049,7 @@ namespace angularAbp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Employee","ME");
+                    b.ToTable("Employee");
                 });
 
             modelBuilder.Entity("angularAbp.MultiTenancy.Tenant", b =>
